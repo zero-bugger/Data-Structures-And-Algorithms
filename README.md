@@ -1,6 +1,6 @@
 # Data-Structures-And-Algorithms
 
-I have started series consistings of Programming Questions depending of different DataStructures and Algorithms. 
+I have started series consistings of Programming Questions depending on different DataStructures and Algorithms. 
 Each DS will be divided into two part first is Basic and second will be Itermediate.
 I will be using Java as a programming language for solving this questions.
 
