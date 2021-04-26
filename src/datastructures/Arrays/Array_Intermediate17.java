@@ -15,7 +15,7 @@ public class Array_Intermediate17 {
 	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int arr[] = {10, 20, 30, 40, 50, 5, 7};
+		int arr[] = {10, 20, 30, 40, 50, 5, 9};
 		
 		System.out.println(minArrRotated(arr, arr.length));
 
