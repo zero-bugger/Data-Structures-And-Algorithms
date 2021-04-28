@@ -1,5 +1,5 @@
 package datastructures.Arrays;
-
+// program to calculate max profit using k transactions
 public class Array_Intermediate20 {
 	 static int maxProfit(int price[], int n,int k)
 	    {
