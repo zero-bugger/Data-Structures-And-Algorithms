@@ -1,7 +1,7 @@
 package datastructures.Arrays;
 
 import java.util.Arrays;
-
+//Minimum difference between 2 towers after manipulating values of array
 public class Array_Intermediate21 {
 	
 	static int minDiff(int a[] ,int n, int k) {
