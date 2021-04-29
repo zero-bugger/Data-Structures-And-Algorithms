@@ -1,5 +1,5 @@
 package datastructures.Arrays;
-
+//Minimum jump required to reach end.
 public class Array_Intermediate22 {
 	static int jump(int a[],int n) {
 		
