@@ -1,7 +1,7 @@
 package datastructures.Arrays;
 
 import java.util.*;
-
+//Two times recurring element in array
 public class Array_Intermediate23 {
 
 	static int [] twoRecurringElem(int a[],int n) {
