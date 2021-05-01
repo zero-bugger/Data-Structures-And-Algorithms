@@ -1,7 +1,7 @@
 package datastructures.Arrays;
 
 import java.util.*;
-
+//Creating matrix m x n using user inputs
 public class Array_Intermediate25 {
 
 	public void matrixmbyn() {
