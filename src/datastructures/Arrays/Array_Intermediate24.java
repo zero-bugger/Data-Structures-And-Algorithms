@@ -1,5 +1,5 @@
 package datastructures.Arrays;
-
+//finding triplets sum equal to k
 import java.util.*;
 
 public class Array_Intermediate24 {
