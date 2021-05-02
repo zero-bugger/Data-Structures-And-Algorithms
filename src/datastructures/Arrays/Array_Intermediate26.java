@@ -1,5 +1,5 @@
 package datastructures.Arrays;
-
+//Count row with maximum one's
 public class Array_Intermediate26 {
 	
 	static int count1s(int a[][]) {
