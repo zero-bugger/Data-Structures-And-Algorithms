@@ -1,5 +1,7 @@
 package datastructures.Arrays;
 
+//Print 2D matrix spirally
+
 public class Array_Intermediate28 {
 	
 	static void printSpiralMatrix(int a[][],int n) {
