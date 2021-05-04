@@ -1,5 +1,5 @@
 package datastructures.Arrays;
-
+//Implement 2 stacks in one array
 
 public class Array_Intermediate30 {
 	static int size;
