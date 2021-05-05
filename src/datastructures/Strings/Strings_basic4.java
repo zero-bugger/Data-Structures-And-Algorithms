@@ -1,7 +1,7 @@
 package datastructures.Strings;
 
 import java.util.*;
-
+//Find Duplicate character in string
 public class Strings_basic4 {
 	
 	static void findDuplicate(String str) {
