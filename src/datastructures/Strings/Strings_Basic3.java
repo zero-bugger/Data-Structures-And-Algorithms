@@ -1,5 +1,5 @@
 package datastructures.Strings;
-
+//Remove all spaces from string
 public class Strings_Basic3 {
 	
 	static void removeWhite(String str) {
