@@ -1,7 +1,7 @@
 package datastructures.Strings;
 
 import java.util.*;
-
+//Find occurrence of characters
 public class Strings_Basic2 {
 
 	static void getOccurence(String str) {
