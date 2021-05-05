@@ -1,5 +1,5 @@
 package datastructures.Strings;
-
+//Check  2 strings are anagrams
 import java.util.*;
 
 public class String_Basic6 {
