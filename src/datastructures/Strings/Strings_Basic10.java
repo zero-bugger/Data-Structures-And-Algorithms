@@ -1,5 +1,5 @@
 package datastructures.Strings;
-
+//Check if palindrome
  
 public class Strings_Basic10 {
 	
