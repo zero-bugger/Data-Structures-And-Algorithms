@@ -1,5 +1,5 @@
 package datastructures.Strings;
-
+//Check if second string is rotated with compare to string 1
 public class Strings_Intermediate1 {
 	
 	
