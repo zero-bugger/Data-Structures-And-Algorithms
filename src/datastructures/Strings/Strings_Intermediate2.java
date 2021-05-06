@@ -1,7 +1,7 @@
 package datastructures.Strings;
 
 import java.util.*;
-
+//Remove duplicate in string
 public class Strings_Intermediate2 {
 	
 	static void removeDuplicate(String s) {
