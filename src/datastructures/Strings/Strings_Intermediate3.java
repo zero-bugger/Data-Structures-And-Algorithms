@@ -1,5 +1,5 @@
 package datastructures.Strings;
-
+//check if string c is interleaving of string a and string b
 public class Strings_Intermediate3 {
 		
 	static boolean isShuffle(String a,String b,String c) {
