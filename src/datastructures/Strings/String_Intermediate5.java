@@ -1,5 +1,5 @@
 package datastructures.Strings;
-
+//Longest repeating substring
 
 public class String_Intermediate5 {
 	
