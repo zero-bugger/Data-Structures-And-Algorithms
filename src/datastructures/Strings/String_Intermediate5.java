@@ -52,9 +52,11 @@ public class String_Intermediate5 {
 		return flag;
 	}
 	
+
+	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		String s ="AAB";
+		String s ="aabebcdd2";
 		int result = longestRepeatingSub(s);
 		System.out.println(result);
 	}

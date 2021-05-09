@@ -30,7 +30,7 @@ public class Strings_Intermediate3 {
 		// TODO Auto-generated method stub
 			String A = "AB";
 	        String B = "CD";
-	        String C = "ACBDQ";
+	        String C = "ACBD";
 	        System.out.println(isShuffle(A, B, C));
 	}
 
