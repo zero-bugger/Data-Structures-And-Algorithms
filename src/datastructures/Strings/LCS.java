@@ -1,5 +1,5 @@
 package datastructures.Strings;
-
+//Longest common subsequence
 public class LCS {
 		
 	
