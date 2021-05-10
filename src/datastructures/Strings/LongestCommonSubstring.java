@@ -1,5 +1,5 @@
 package datastructures.Strings;
-
+//Longest Common substring using Dynamic programming
 public class LongestCommonSubstring {
 
 	static int DPLCS (String a, String b, int m , int n) {
