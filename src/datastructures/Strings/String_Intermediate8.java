@@ -1,5 +1,6 @@
 package datastructures.Strings;
 
+//Seperate 0's and 1's and find the substring 
 import java.util.HashMap;
 
 public class String_Intermediate8 {
