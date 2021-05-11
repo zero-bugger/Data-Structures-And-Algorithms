@@ -30,7 +30,8 @@ public class Strings_basic4 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 			String str = "ffdssrett";
-			findDuplicate(str);
+			//findDuplicate(str);
+			System.out.println(str.indexOf("d"));
 	}
 
 }
