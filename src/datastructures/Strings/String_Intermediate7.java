@@ -1,5 +1,5 @@
 package datastructures.Strings;
-
+//print all permutations of string
 public class String_Intermediate7 {
 	
 	static void printPermutationcom(String output,String input) {
