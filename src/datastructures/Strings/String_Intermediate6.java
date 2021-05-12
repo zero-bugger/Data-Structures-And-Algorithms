@@ -1,5 +1,5 @@
 package datastructures.Strings;
-
+//print all the subsequence of given string using recursion
 public class String_Intermediate6 {
 
 	static void printSubsequences(String input,String output) {
