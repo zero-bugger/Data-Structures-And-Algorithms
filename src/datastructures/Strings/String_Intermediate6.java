@@ -19,12 +19,24 @@ public class String_Intermediate6 {
 		printSubsequences(inp.toString(), op2.toString());
 		return;
 	}
-	
+	static void printSubSequence2(String output ,String input) {
+		if(input.length() == 0) {
+			System.out.println(output);
+			return;
+		}
+		
+		String op1 = output;
+		String op2 = output;
+		
+		printSubSequence2(op1 ,input.substring(0+1,input.length()));
+		printSubSequence2(op2 + input.charAt(0),input.substring(0+1,input.length()));
+		return;
+	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		String input = "aab";
 		String output = "";
-		printSubsequences(input, output);
+		printSubSequence2(output, input);
 	}
 	
 }
