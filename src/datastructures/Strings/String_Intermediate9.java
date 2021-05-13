@@ -1,5 +1,6 @@
 package datastructures.Strings;
 
+//rearrange string with adjacent element not same
 public class String_Intermediate9 {
 
 	static void rearrangeandPrint(String output,String input) {

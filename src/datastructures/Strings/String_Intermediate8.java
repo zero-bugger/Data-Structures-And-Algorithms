@@ -1,5 +1,9 @@
 package datastructures.Strings;
 
+<<<<<<< HEAD
+=======
+//Seperate 0's and 1's and find the substring 
+>>>>>>> 88a3f17dc5c09a3cb07eee919748a58e0134e053
 public class String_Intermediate8 {
 	
 	static int countSubstring(String s) {
