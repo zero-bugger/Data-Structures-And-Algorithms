@@ -1,5 +1,5 @@
 package datastructures.Strings;
-//Finding minimum window
+//Finding minimum window that contains all characters all string itself
 import java.util.*;
 
 public class String_Intermediate10 {
