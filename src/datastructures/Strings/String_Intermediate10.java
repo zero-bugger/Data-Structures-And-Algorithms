@@ -4,55 +4,51 @@ import java.util.*;
 
 public class String_Intermediate10 {
 	
-	static int findMinWindow(String s) {
-		
-		HashSet<Character> set = new HashSet<>();
+	static int findMinWindow(String s,String t) {
+		int i=0;
+		int j=0;
+		int count=0;
+		int ans =0;
 		HashMap<Character,Integer> map = new HashMap<>();
-		int i=0,j=0;
-		String str = "";
-		for(int k = 0;k<s.length();k++) {
-			set.add(s.charAt(k));
-		}
-		int count = set.size();
-		System.out.println(count);
-		str = str+set.toString();
-		for(Character ch :str.toCharArray()) {
+		for(Character ch : t.toCharArray()) {
 			if(map.containsKey(ch)) {
 				map.put(ch, map.get(ch)+1);
-			}
-			else {
-				map.put(ch,1);
+			}else {
+				map.put(ch, 1);
 			}
 		}
-	
-		while(j < s.length()) {
-			if(map.containsKey(s.charAt(j))) {	
-				map.replace(s.charAt(j), map.get(s.charAt(j))-1);
-				
-				int elementcount = map.get(s.charAt(j));
-				System.out.println(elementcount);
-				if(elementcount == 0) {
-					count--;
-					System.out.println("Count"+count);
+		count =map.size();
+		System.out.println(count);
+		while( j <s.length() && i < s.length()) {
+			char chk = s.charAt(j);
+			if(map.containsKey(chk)) {
+				map.replace(chk, map.get(chk)-1);
+				if(map.containsValue(0)) {
+					count --;
 				}
-			
+				//System.out.println(count);
 			}
 			
-			if(count == 0 ) {
-				while(i< j && count ==0) {
-					if(map.containsKey(s.charAt(i))) {
-						map.replace(s.charAt(i), map.get(s.charAt(i))+1);	
-						int elementcount = map.get(s.charAt(j));
-						if(elementcount > 0) {
-							count++;
-						}
+			if( count == 0) {
+				
+				ans=j - i ;
+				while(count == 0) {
+					char chki = s.charAt(i);
+					if(map.containsKey(chki)) {
+						map.replace(chki, map.get(chki)+1);
 					}
 					i++;
+					if(map.containsValue(1)) {
+						count++;
+						
+					}
+					
 				}
 			}
+			
 			j++;
 		}
-		return count;
+		return ans;			
 		
 	}
 	
@@ -60,7 +56,15 @@ public class String_Intermediate10 {
 		// TODO Auto-generated method stub
 		
 		String s = "AABBBCBBAC";
-		System.out.println(findMinWindow(s));
+		HashSet<Character> set = new HashSet<>();
+		for(char ch:s.toCharArray()) {
+			set.add(ch);
+		}
+		StringBuffer sb = new StringBuffer();
+		Iterator<Character> i = set.iterator();
+        while (i.hasNext())
+          sb.append(i.next());
+    	findMinWindow(s, sb.toString());
 	}
 
 }
