@@ -1,5 +1,5 @@
 package datastructures.Strings;
-
+//number of substrings with count each character as k
 import java.util.*;
 
 public class String_Intermediate11 {
