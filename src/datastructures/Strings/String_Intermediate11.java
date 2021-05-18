@@ -1,28 +1,28 @@
 package datastructures.Strings;
-//number of substrings with count each character as k
+
 import java.util.*;
 
 public class String_Intermediate11 {
 	
-	static void allsubstrings(String input) {
+	static int allsubstrings(String input , int k) {
 		int count = 0;
 		for(int i=0;i<input.length();i++) {
 			for(int j=i+1;j<=input.length();j++) {
 				String s = input.substring(i,j);
-				System.out.println(s);
-				int value = countOccurence(s);
+				int value = countOccurence(s,k);
 				count = count+value;
-				System.out.println(value);
 			}
 		}
-		System.out.println(count);
+		return count;
 		
 	}
-	static int countOccurence(String s) {
-		HashMap<Character,Integer> map = new HashMap<>();
-		int sum=0;
+	static int countOccurence(String s,int k) {
 		int flag =0;
-		for(Character ch : s.toCharArray()) {
+		if(s.length() == 1) {
+			return 0;
+		}
+		HashMap<Character ,Integer> map = new HashMap<>();
+		for(char ch :s.toCharArray()) {
 			if(map.containsKey(ch)) {
 				map.put(ch, map.get(ch)+1);
 			}
@@ -31,25 +31,26 @@ public class String_Intermediate11 {
 			}
 		}
 		Set<Map.Entry<Character, Integer>> set = map.entrySet();
-		Iterator<Map.Entry<Character, Integer>> it = set.iterator();
-		while(it.hasNext()) {
-			Map.Entry<Character, Integer> v = it.next();
-			sum = sum+v.getValue();
-			
-		}
-		if(sum% 2 == 0) {
-			flag=1;
-		}
-			map.clear();
-			if(flag == 1) {
-				return 1;
+		Iterator<Map.Entry<Character, Integer>> ite = set.iterator();
+		while(ite.hasNext()) {
+			Map.Entry<Character, Integer> it = ite.next();
+			if(it.getValue() % k != 0) {
+				flag=1;
 			}
-		return 0;
+		}
+		map.clear();
+		
+		if(flag ==1) {
+			return 0;
+		}
+		return 1;
 	}
+
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		String input ="aabbcc";
-		allsubstrings(input);
+		String input ="aabccc";
+		int k =2;
+		System.out.println(allsubstrings(input,k));
 	}
 
 }
