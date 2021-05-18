@@ -1,5 +1,8 @@
 package datastructures.Strings;
-
+//Longest common substring between 2 given string using 
+// 1) Recursion
+// 2) Recursion + Memoization
+// 3) Top-Down Approach(Dynamic Programming)
 public class String_Intermediate12 {
 	
 	static int r[][] = new int [20][20];
