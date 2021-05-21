@@ -1,5 +1,6 @@
 package datastructures.Strings;
 
+//Next greater element with same set of digits.
 import java.util.Arrays;
 
 public class Strings_Intermediate16 {
