@@ -1,5 +1,9 @@
 package datastructures.Strings;
 
+//Conversion of input string 
+// 1 . From Prefix to Infix
+// 2 . From PostFix to Infix
+
 import java.util.Stack;
 
 public class String_Intermediate17 {
