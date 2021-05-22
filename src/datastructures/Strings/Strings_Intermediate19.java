@@ -1,5 +1,6 @@
 package datastructures.Strings;
 
+//Check paranthesis order and validaions
 import java.util.Stack;
 
 public class Strings_Intermediate19 {
