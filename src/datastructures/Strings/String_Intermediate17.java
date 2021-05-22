@@ -3,6 +3,8 @@ package datastructures.Strings;
 //Conversion of input string 
 // 1 . From Prefix to Infix
 // 2 . From PostFix to Infix
+// 3 . From Prefix to Postfix
+// 4 . From Postfix to Prefix
 
 import java.util.Stack;
 
