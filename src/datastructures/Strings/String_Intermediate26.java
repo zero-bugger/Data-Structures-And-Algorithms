@@ -1,5 +1,5 @@
 package datastructures.Strings;
-
+//Print Palindromic strings in given input string
 public class String_Intermediate26 {
 	
 	static void printallPalindrome(String a,String b,int m,int n) {
