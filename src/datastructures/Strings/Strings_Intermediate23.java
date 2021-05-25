@@ -1,5 +1,5 @@
 package datastructures.Strings;
-
+//Minimum rotation required to get same string
 public class Strings_Intermediate23 {
 	
 	
