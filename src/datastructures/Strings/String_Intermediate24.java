@@ -1,5 +1,5 @@
 package datastructures.Strings;
-
+//Print first repeated word in string
 import java.util.*;
 
 public class String_Intermediate24 {
