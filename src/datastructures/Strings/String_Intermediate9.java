@@ -16,6 +16,8 @@ public class String_Intermediate9 {
 		for(int i=0;i<input.length();i++) {
 			int outputlength = output.length();
 			if(output.charAt(outputlength-1) != input.charAt(i)) {
+				System.out.println(input);
+				System.out.println(input.charAt(i));
 				rearrangeandPrint(output+input.charAt(i), input.substring(0,i)+input.substring(i+1,input.length()));			
 				return ;
 			}
