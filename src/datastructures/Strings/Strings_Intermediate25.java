@@ -1,5 +1,5 @@
 package datastructures.Strings;
-
+//Write program to get first repeated element in string without using any additional DS and using one traversal
 public class Strings_Intermediate25 {
 
 //	static void firstReapeated(String output,String input) {
