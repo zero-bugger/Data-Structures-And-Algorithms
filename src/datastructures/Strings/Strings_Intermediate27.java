@@ -1,4 +1,5 @@
 package datastructures.Strings;
+//Minimum flips required to string to make it alternate 0's and 1's
 
 import java.util.*;
 
