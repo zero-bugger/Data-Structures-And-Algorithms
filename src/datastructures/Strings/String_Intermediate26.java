@@ -1,11 +1,13 @@
 package datastructures.Strings;
 
+
 public class String_Intermediate26 {
 	
 	static void printallPalindrome(String a,String b,int m,int n) {
 			
 		int t[][] = new int[m+1][n+1];
 		StringBuilder sb = new StringBuilder();
+		StringBuilder s = new StringBuilder();
 		
 		for(int i=0;i<m+1;i++) {
 			for(int j = 0;j<n+1;j++) {
@@ -34,24 +36,27 @@ public class String_Intermediate26 {
 				n--;
 			}
 			else {
-				
+				System.out.println(s.toString());	
 				if(t[m][n-1] > t[m-1][n]) {
+					s.append(b.charAt(n-1));
+					System.out.println(s.toString());
 					n--;
-				
+					
 				}
 				else {
+					s.append(a.charAt(m-1));
+					System.out.println(s.toString());
 					m--;
 				
 				}
 			}
 		}
 		
-
 	}
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		String a =  "abcd";
+		String a =  "aabaab";
 		StringBuilder sb = new StringBuilder(a);
 		sb.reverse();
 		String b = sb.toString();
