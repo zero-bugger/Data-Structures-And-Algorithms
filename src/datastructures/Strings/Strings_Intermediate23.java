@@ -1,4 +1,8 @@
-   static int rotateString(String s) {
+package datastructures.Strings;
+//Minimum rotation required to get same string
+public class Strings_Intermediate23 {
+
+static int rotateString(String s) {
 
                 int n = s.length();
                 StringBuilder sb = new StringBuilder();
@@ -35,4 +39,4 @@
                 System.out.println(rotateString(s));
 
         }
-
+}
