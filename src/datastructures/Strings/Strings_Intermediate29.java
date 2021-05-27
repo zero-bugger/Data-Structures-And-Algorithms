@@ -1,5 +1,5 @@
 package datastructures.Strings;
-
+//Find if the word exits in 2D grid and return its positions
 import java.util.*;
 
 
