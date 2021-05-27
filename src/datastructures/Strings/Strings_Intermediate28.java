@@ -1,5 +1,5 @@
 package datastructures.Strings;
-
+//Count the number of times given word appeared in grid board  i.e 2D array
 public class Strings_Intermediate28 {
 
 	
