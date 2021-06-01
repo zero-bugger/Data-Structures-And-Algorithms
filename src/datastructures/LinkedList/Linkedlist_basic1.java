@@ -1,5 +1,5 @@
 package datastructures.LinkedList;
-
+//Creating Singly Linkedlist with different methods e.g : insertAtEnd(),insertAtStart(),show(),length(),insertAfter()
 public class Linkedlist_basic1 {
 	
 	Node head;
