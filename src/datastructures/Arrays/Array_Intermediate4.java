@@ -10,12 +10,12 @@ public class Array_Intermediate4 {
 				
 				if(diff>0) {
 					int j=i+1;
-					//int flag=0;
+					
 					while(j<n) {
 						if(a[j]==diff ) {
 							
 							count++;
-							//flag=1;
+							
 						}
 						j++;
 					}
