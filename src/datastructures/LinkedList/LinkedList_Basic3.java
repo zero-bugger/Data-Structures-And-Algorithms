@@ -1,5 +1,5 @@
 package datastructures.LinkedList;
-
+//Create Singly Linked List and delete element 
 public class LinkedList_Basic3 {
 	
 	Node head;
