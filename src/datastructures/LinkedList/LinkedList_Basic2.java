@@ -1,5 +1,5 @@
 package datastructures.LinkedList;
-
+//Create Singly Linkedlist and search element in it
 public class LinkedList_Basic2 {
 	
 	Node head;
