@@ -51,16 +51,18 @@ public class LinkedList_Basic3 {
 			n=n.next;
 		}
 	}
+	int val = 10;
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		LinkedList_Basic3 list = new LinkedList_Basic3();
-		list.insert(20);
-		list.insert(23);
-		list.insert(12);
-		list.insert(124);
-		//list.show();
-		list.deleteElement(12);
-		list.show();
+		System.out.println(list.val);
+//		list.insert(20);
+//		list.insert(23);
+//		list.insert(12);
+//		list.insert(124);
+//		//list.show();
+//		list.deleteElement(12);
+//		list.show();
 		
 	}
 
