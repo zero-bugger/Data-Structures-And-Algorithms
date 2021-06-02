@@ -1,5 +1,5 @@
 package datastructures.LinkedList;
-
+//Find occurence of given element
 import java.util.*;
 
 public class LinkedList_Basic5 {
