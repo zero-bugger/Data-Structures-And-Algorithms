@@ -1,5 +1,5 @@
 package datastructures.LinkedList;
-
+//Convert Singly LinkedList to Circular LinkedList
 public class Linkedlist_basic7 {
 	
 	static class Node  
