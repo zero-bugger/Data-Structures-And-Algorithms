@@ -1,5 +1,5 @@
 package datastructures.LinkedList;
-
+//Create doubly linked list
 public class LinkedList_basic8 {
 	
 	Node head;
