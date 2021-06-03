@@ -1,5 +1,5 @@
 package datastructures.LinkedList;
-
+//Find Min and Max element from given Linkedlist
 public class LinkedList_basic6 {
 
 	
