@@ -9,14 +9,15 @@ public class LinkedList_basic8 {
 		int data;
 		Node(int d){
 			data =d;
+			next = null;
+			prev = null;
 		}
 	}
 	
 	public void insert(int d) {
 		Node n = new Node(d);
 		Node temp = head;
-		n.next = null;
-		n.prev = null;
+		
 		if(head == null) {
 			head = n;
 		}
@@ -39,7 +40,8 @@ public class LinkedList_basic8 {
 		// TODO Auto-generated method stub
 		LinkedList_basic8 list = new LinkedList_basic8();
 		list.insert(12);
-		list.insert(23);
+		list.insert(223);
+		list.insert(32);
 		list.insert(34);
 		list.insert(56);
 		list.show();
