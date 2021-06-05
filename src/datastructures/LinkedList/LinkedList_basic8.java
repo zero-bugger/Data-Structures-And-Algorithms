@@ -9,25 +9,31 @@ public class LinkedList_basic8 {
 		int data;
 		Node(int d){
 			data =d;
-			next = null;
-			prev = null;
+			
 		}
 	}
 	
 	public void insert(int d) {
 		Node n = new Node(d);
-		Node temp = head;
+		n.prev = null;
+		n.next = head;
 		
-		if(head == null) {
-			head = n;
+		if(head!=null){
+		    head.prev = n;
 		}
-		else {
-			temp.next = n;
-			n.prev = temp;
-			temp = n;
-		}
-		
+		head = n;
 	}
+	
+	public void insertAtStart(int d){
+		Node n = new Node(d);
+		
+		n.prev = null;
+		n.next =head;
+		
+		head = n;
+			
+	}
+	
 	public void show() {
 		Node n = head;
 		while(n!=null) {
