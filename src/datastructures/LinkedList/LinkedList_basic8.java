@@ -12,7 +12,11 @@ public class LinkedList_basic8 {
 		Node(int d){
 
 			data =d;
+<<<<<<< HEAD
 
+=======
+			
+>>>>>>> 5ac128055ee20802ac9b22c4384912459c6f92b9
 		}
 	}
 	
@@ -30,26 +34,42 @@ public class LinkedList_basic8 {
     }
 	public void addAtBegin(int d) {
 		Node n = new Node(d);
+<<<<<<< HEAD
 
 		
 		n.prev = null;
 		n.next = head;
 
 		Node temp = head;
+=======
+		n.prev = null;
+		n.next = head;
+>>>>>>> 5ac128055ee20802ac9b22c4384912459c6f92b9
 		
-		if(head == null) {
-			head = n;
+		if(head!=null){
+		    head.prev = n;
 		}
-		else {
-			temp.next = n;
-			n.prev = temp;
-			temp = n;
-		}
+<<<<<<< HEAD
 
 		
 		head = n;
 	}
 
+=======
+		head = n;
+	}
+	
+	public void insertAtStart(int d){
+		Node n = new Node(d);
+		
+		n.prev = null;
+		n.next =head;
+		
+		head = n;
+			
+	}
+	
+>>>>>>> 5ac128055ee20802ac9b22c4384912459c6f92b9
 	public void show() {
 		Node n = head;
 		while(n!=null) {
