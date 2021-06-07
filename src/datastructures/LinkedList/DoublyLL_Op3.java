@@ -1,5 +1,5 @@
 package datastructures.LinkedList;
-
+//Find min and max element from doubly linked list
 public class DoublyLL_Op3 {
 	
 	Node head;
