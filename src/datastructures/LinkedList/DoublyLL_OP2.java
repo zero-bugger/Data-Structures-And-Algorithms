@@ -1,5 +1,5 @@
 package datastructures.LinkedList;
-
+//Delete element from Doubly Linked List
 public class DoublyLL_OP2 {
 	
 	Node head;
